@@ -1,9 +1,10 @@
-[README.md](https://github.com/user-attachments/files/27513281/README.md)
 # Replication Material
 
 This repository contains the replication material for the paper:
 
 **Investigating Regional Electricity Consumption Across Europe: A Spatial Analysis**
+
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5289637
 
 The repository provides the code and input files needed to reproduce the construction of the analytical dataset and the empirical analysis presented in the paper.
 
@@ -51,10 +52,10 @@ It includes regional electricity consumption data collected and harmonized from 
 The socioeconomic and climate covariates are provided as separate CSV files in the `data/` folder:
 
 - `gdp.csv`: regional GDP per capita;
-- `real_compensation.csv`: real compensation per employee;
+- `real_compensation.csv`: regional real compensation per employee;
 - `population.csv`: regional population;
-- `HDD.csv`: Heating Degree Days;
-- `CDD.csv`: Cooling Degree Days;
+- `HDD.csv`: regional Heating Degree Days;
+- `CDD.csv`: regional Cooling Degree Days;
 - `dd.csv`: additional HDD and CDD information used for the United Kingdom and Switzerland.
 
 The regional geometries are stored in:
@@ -130,4 +131,4 @@ Running the full workflow produces:
 
 ## Citation
 
-If you use this replication material, please cite the paper and the public electricity consumption dataset.
+If you use this replication material, please cite the paper.
